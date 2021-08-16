@@ -10,14 +10,14 @@ body {
 
 @font-face {
     font-family: Raleway;
-    src: url("/src/fonts/Raleway/static/Raleway-Light.ttf");
+    src: url("../fonts/Raleway/static/Raleway-Light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: Raleway;
-    src: url("/src/fonts/Raleway/static/Raleway-Bold.ttf");
+    src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
     font-weight: 700;
     font-style: normal;
 }
