@@ -1,0 +1,29 @@
+@import "fonts/fonts";
+@import "variable";
+@import "pages/our-team/index";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $raleway;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0 0 40px;
+  font-size: 60px;
+  font-family: $roboto;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

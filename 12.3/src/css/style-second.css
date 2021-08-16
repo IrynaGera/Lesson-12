@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("/src/fonts/Raleway/static/Raleway-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("/src/fonts/Raleway/static/Raleway-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section-form {
+    padding: 115px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    padding: 0 15px 0;
+}
+
+.title-holder {
+    text-align: center;
+    padding-bottom: 47px;
+}
+
+.title-holder-contacts {
+    font-size: 90px;
+    color: #262626;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 50px;
+}
+
+.text-holder {
+    width: 350px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 300;
+    font-family: 'Raleway';
+    font-style: normal;
+    margin: 0 auto;
+}
+
+.form-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 0px;
+    padding-bottom: 120px;
+    max-width: 990px;
+}
+
+.input-name,
+.input-email,
+.input-telephone {
+    padding: 18px 0 15px 20px;
+    background-color: #72d7d6;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: "Raleway";
+    color: #ffffff; 
+    width: 500px;
+}
+
+.input-textarea {
+    padding: 18px 0 245px 20px;
+    background-color: #72d7d6;
+    color: #ffffff;
+    width: 500px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.input-form-holder {
+    max-width: 500px;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.input-holder-name,
+.input-holder-email,
+.input-holder-telephone {
+    padding-bottom: 15px;   
+}
+
+.address,
+.email {
+    margin-bottom: 18px;
+}
+
+footer {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #000;
+    color: #ffffff;
+    padding: 35px 0;
+}
+
+.holder-rights {
+    font-size: 16px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.holder-author {
+    font-size: 15px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #ff2b58;
+}
+
+.input-name,
+.input-email,
+.input-telephone,
+.input-textarea {
+    border: none;
+    outline: none;
+}
+
+.address,
+.email,
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-type {
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.contacts-holder {
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Raleway";
+    font-style: normal;
+}

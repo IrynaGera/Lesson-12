@@ -1,0 +1,252 @@
+.our-team-section {
+  padding: 110px 0 90px;
+}
+
+.title-holder {
+  margin: 0 0 40px;
+  text-align: center;
+
+  .subtitle {
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: $grey;
+  }
+
+  .title {
+    color: $yellow;
+  }
+
+  .icon-holder {
+    display: inline-block;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 210px;
+      border-top: 1px solid $yellow;
+      right: 25px;
+      top: 8px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 210px;
+      border-top: 1px solid $yellow;
+      left: 25px;
+      top: 8px;
+    }
+
+    .fa-free-code-camp {
+      color: $yellow;
+    }
+
+  }
+
+}
+.slider-holder {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 40px;
+
+  .slider-arrow {
+    position: absolute;
+    top: 180px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: $yellow;
+
+    &.arrow-prew {
+      left: 0;
+    }
+
+    &.arrow-next {
+      right: 0;
+    }
+  }
+
+  .column {
+    padding: 0 15px 105px;
+    width: 50%;
+  }
+
+  .slider-img {
+    position: relative;
+    padding: 15px;
+    max-width: 413px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      border-top: 1px solid $yellow;
+      border-left: 1px solid $yellow;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      border-top: 1px solid $yellow;
+      border-right: 1px solid $yellow;
+    }
+
+    .part-border {
+      position: absolute;
+      bottom: 0;
+      width: 100px;
+      height: 100px;
+      border-bottom: 1px solid $yellow;
+
+      &.left {
+        left: 0;
+        border-left: 1px solid $yellow;
+      }
+
+      &.right {
+        right: 0;
+        border-right: 1px solid $yellow;
+      }
+    }
+
+    .img-holder {
+      border: 1px solid $yellow;
+    }
+  }
+
+  .slider-description {
+    text-align: center;
+
+    .slider-title {
+      font-size: 36px;
+      color: $dark-grey;
+      font-weight: 900;
+      font-family: $roboto;
+      margin: 0 0 70px;
+    }
+
+    .description-title {
+      font-size: 24px;
+      color: $dark-grey;
+      font-weight: 400;
+      font-family: $raleway;
+      margin: 0 0 30px;
+
+    }
+
+    .social-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+      margin: 0 0 30px;
+      font-size: 20px;
+    
+      .social-item {
+        padding: 0 5px;
+      }
+
+      .social-link {
+        text-decoration: none;
+        color: $grey;
+      }
+    }
+
+    .text-holder {
+      width: 420px;
+      font-size: 14px;
+      color: $black;
+      font-weight: 500;
+      font-family: $raleway;
+      margin: 0 auto;
+      padding-bottom: 24px;
+
+      p {
+        margin: 0;
+      }
+      
+    }
+
+    .custom-separator {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 26px;
+      flex-wrap: wrap;
+
+      .separator-start {
+        border: 2px solid $yellow;
+        width: 10px;
+        margin: 0 auto;
+        background-color: $yellow;
+        margin: 0 3px;
+      }
+
+      .separator-middle {
+        border: 2px solid $yellow;
+        width: 20px;
+        margin: 0 auto;
+        background-color: $yellow;
+        margin: 0 3px;
+      }
+
+      .separator-end {
+        border: 2px solid $yellow;
+        width: 10px;
+        margin: 0 auto;
+        background-color: $yellow;
+        margin: 0 3px;
+      }
+    }
+
+    .btn {
+      border: 1px solid $yellow;
+      text-decoration: none;
+      font-size: 14px;
+      color: $dark-grey;
+      font-weight: 700;
+      font-family: $openSans;
+      text-transform: uppercase;
+      padding: 6px 12px;
+    }
+  }
+  .slider-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+
+    .slider-nav-bullet {
+      height: 12px;
+      width: 5px;
+      border-radius: 50%;
+      border: 1px solid $yellow;
+      background-color: $yellow;
+      margin: 0 5px;
+
+      &.active {
+        background-color: $white;
+      }
+
+      &:active {
+        background-color: $white;
+      }
+    }
+  }
+}

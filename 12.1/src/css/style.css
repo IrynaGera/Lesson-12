@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.paid-form-section {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paid-form-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.paid-form {
+    background-color: #fff;
+    width: 100%;
+    max-width: 337px;
+}
+
+.paid-form .form-head {
+    padding: 25px;
+    background-color: #efe4aa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-head .form-head-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: #a6a28d;
+}
+
+.form-head-title .form-name {
+    color: #6e7f7b;
+    font-size: 14px;
+}
+
+.form-head .form-total-price {
+    font-size: 36px;
+    color: #637570;
+}
+
+.paid-form .form-holder {
+    padding: 45px 25px 20px;
+}
+
+.input-holder {
+    padding-bottom: 30px;
+}
+
+.input-holder:last-child {
+    border-bottom: 1px solid #e4e7e8;
+    margin-bottom: 30px;
+}
+
+.input-label {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    color: #9eabad;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #b4c1c4;
+    border-radius: 0;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #7fcddf;
+}
+
+.select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-select {
+    max-width: 175px;
+    background-color: #fff;
+    font-size: 13px;
+    color: #727f82;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.input-year {
+    max-width: 95px;
+    background-color: #fff;
+    font-size: 13px;
+    color: #727f82;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.form-holder-cvv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-cvv {
+    max-width: 95px;
+}
+
+.input-description {
+    font-size: 12px;
+    color: #9eabad;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+a {
+    color: inherit;
+}
+
+.btn {
+    width: 100%;
+    background-color: #26b167;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border: none;
+    padding: 18px 0;
+    margin-bottom: 18px;
+}
+
+.holder-cancel {
+    font-size: 12px;
+    color: #9eabad;
+    font-weight: 400;
+    font-family: "Montserrat";
+    display: block;
+    text-align: center ;
+}
+
+
+

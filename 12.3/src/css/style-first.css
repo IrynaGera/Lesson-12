@@ -1,0 +1,164 @@
+body,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blog {
+    padding: 110px 0 0;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #b07cf7;
+}
+
+.container {
+    padding: 0 15px 0;
+}
+
+.image-holder-col {
+    position: relative;
+    margin: 0 15px;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.image-holder-col::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
+}
+
+.link-img {
+    display: block;
+}
+
+.title-blog {
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.text-dolore { 
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Raleway";
+    margin: 0 auto;
+    padding: 0 0 45px;
+    width: 570px;
+}
+
+.flex-row-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.date {
+    font-size: 32px;
+    width: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #4d525c;
+    border-radius: 10%;
+    display: block;
+    text-align: center;
+    background-color: #4d525c;
+    position: absolute;
+    bottom: 220px;
+    left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title1 {
+    margin: 0;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title2 {
+    margin: 0;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title3 {
+    margin: 0;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time1 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.time2 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.time3 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.link-view-more {
+    display: block;
+    background-color: #f72b3b;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    padding: 25px 0;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.link-holder {
+    padding-bottom: 120px;
+}
+ 
